@@ -339,7 +339,7 @@ except Exception:
 ## Recommendations
 
 1. **Adopt a Secure SDLC** — Integrate security reviews at every stage of development, not just at the end.
-2. **Use a Static Analyzer** — Tools like `bandit` (Python) can automatically detect many of these issues: `pip install bandit && bandit vulnerable_app.py`
+2. **Use a Static Analyzer** — Tools like `bandit` (Python) can automatically detect many of these issues: `pip install bandit && bandit vulnerable_app.IPYNB`
 3. **Never trust user input** — Validate, sanitize, and escape all data that enters your application from any external source.
 4. **Use proven libraries** — Don't implement your own cryptography. Use `bcrypt`, `argon2`, or `secrets` from the standard library.
 5. **Secrets management** — Use environment variables or a dedicated secrets manager. Never commit credentials to version control.
