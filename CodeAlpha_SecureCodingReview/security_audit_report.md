@@ -4,7 +4,7 @@
 **Organization:** CodeAlpha Internship — Task 3  
 **Date:** May 2026  
 **Language Audited:** Python 3  
-**Files Reviewed:** `vulnerable_app.py`  
+**Files Reviewed:** `vulnerable_app.IPYNB`  
 
 ---
 
