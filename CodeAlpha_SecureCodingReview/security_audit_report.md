@@ -10,7 +10,7 @@
 
 ## Executive Summary
 
-A manual security code review was conducted on a Python-based user management application. The audit identified **10 critical or high-severity vulnerabilities** spanning SQL injection, command injection, insecure cryptography, hardcoded credentials, and more. All findings have been documented with their risk level, root cause, and a remediated code example in `secure_app.py`.
+A manual security code review was conducted on a Python-based user management application. The audit identified **10 critical or high-severity vulnerabilities** spanning SQL injection, command injection, insecure cryptography, hardcoded credentials, and more. All findings have been documented with their risk level, root cause, and a remediated code example in `secure_app.IPYNB`.
 
 | Severity | Count |
 |----------|-------|
@@ -323,16 +323,16 @@ except Exception:
 
 | ID | Vulnerability | Severity | CWE | Status |
 |----|--------------|----------|-----|--------|
-| VUL-01 | SQL Injection | CRITICAL | CWE-89 | Fixed in secure_app.py |
-| VUL-02 | Hardcoded Credentials | CRITICAL | CWE-798 | Fixed in secure_app.py |
-| VUL-03 | Command Injection | CRITICAL | CWE-78 | Fixed in secure_app.py |
-| VUL-04 | Insecure Deserialization | CRITICAL | CWE-502 | Fixed in secure_app.py |
-| VUL-05 | Weak Hashing (MD5) | HIGH | CWE-916 | Fixed in secure_app.py |
-| VUL-06 | Path Traversal | HIGH | CWE-22 | Fixed in secure_app.py |
-| VUL-07 | Insecure Randomness | HIGH | CWE-338 | Fixed in secure_app.py |
-| VUL-08 | Sensitive Data in Logs | HIGH | CWE-532 | Fixed in secure_app.py |
-| VUL-09 | Missing Input Validation | MEDIUM | CWE-20 | Fixed in secure_app.py |
-| VUL-10 | Verbose Error Messages | MEDIUM | CWE-209 | Fixed in secure_app.py |
+| VUL-01 | SQL Injection | CRITICAL | CWE-89 | Fixed in secure_app.IPYNB |
+| VUL-02 | Hardcoded Credentials | CRITICAL | CWE-798 | Fixed in secure_app.IPYNB |
+| VUL-03 | Command Injection | CRITICAL | CWE-78 | Fixed in secure_app.IPYNB |
+| VUL-04 | Insecure Deserialization | CRITICAL | CWE-502 | Fixed in secure_app.IPYNB |
+| VUL-05 | Weak Hashing (MD5) | HIGH | CWE-916 | Fixed in secure_app.IPYNB |
+| VUL-06 | Path Traversal | HIGH | CWE-22 | Fixed in secure_app.IPYNB |
+| VUL-07 | Insecure Randomness | HIGH | CWE-338 | Fixed in secure_app.IPYNB |
+| VUL-08 | Sensitive Data in Logs | HIGH | CWE-532 | Fixed in secure_app.IPYNB |
+| VUL-09 | Missing Input Validation | MEDIUM | CWE-20 | Fixed in secure_app.IPYNB |
+| VUL-10 | Verbose Error Messages | MEDIUM | CWE-209 | Fixed in secure_app.IPYNB |
 
 ---
 
@@ -358,4 +358,3 @@ except Exception:
 
 ---
 
-*Report prepared for CodeAlpha Cybersecurity Internship — Task 3: Secure Coding Review*
