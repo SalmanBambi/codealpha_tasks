@@ -1,6 +1,6 @@
 # Security Code Audit Report
-**Project:** User Management System (Python)  
-**Auditor:** [Your Name]  
+**Project:** User Management System (Python in Jupyter)  
+**Auditor:** Salman Ali 
 **Organization:** CodeAlpha Internship — Task 3  
 **Date:** May 2026  
 **Language Audited:** Python 3  
